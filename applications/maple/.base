@@ -5,5 +5,3 @@ GeneralAppSetup
 
 prepend-path PATH $app_dir/bin
 prepend-path MANPATH $app_dir/man
-
-
