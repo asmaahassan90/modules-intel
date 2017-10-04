@@ -1,0 +1,9 @@
+#%Module 1.0 -*- tcl -*-
+
+source $env(KAUST_MODULES_ROOT)/common/setup.tcl
+GeneralAppSetup
+
+prepend-path PATH $app_dir/Fmask
+prepend_path LD_LIBRARY_PATH /opt/share/fmask/3.2/v81/runtime/glnxa64:/opt/share/fmask/3.2/v81/bin/glnxa64:/opt/share/fmask/3.2/v81/sys/os/glnxa64:/opt/share/fmask/3.2/v81/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/opt/share/fmask/3.2/v81/sys/java/jre/glnxa64/jre/lib/amd64/server:/opt/share/fmask/3.2/v81/sys/java/jre/glnxa64/jre/lib/amd64
+
+setenv XAPPLRESDIR /opt/share/fmask/3.2/v81/X11/app-defaults
